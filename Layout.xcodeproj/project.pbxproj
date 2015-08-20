@@ -13,6 +13,8 @@
 		A46AE3601B8619E800F2D81F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A46AE35F1B8619E800F2D81F /* Images.xcassets */; };
 		A46AE3631B8619E800F2D81F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A46AE3611B8619E800F2D81F /* LaunchScreen.xib */; };
 		A46AE36F1B8619E800F2D81F /* LayoutTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A46AE36E1B8619E800F2D81F /* LayoutTests.swift */; };
+		A46AE37A1B861AD300F2D81F /* PlayersFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = A46AE3791B861AD300F2D81F /* PlayersFlowLayout.swift */; };
+		A46AE37C1B861DFD00F2D81F /* Силуэт_600-800px.png in Resources */ = {isa = PBXBuildFile; fileRef = A46AE37B1B861DFD00F2D81F /* Силуэт_600-800px.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		A46AE3681B8619E800F2D81F /* LayoutTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LayoutTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A46AE36D1B8619E800F2D81F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A46AE36E1B8619E800F2D81F /* LayoutTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayoutTests.swift; sourceTree = "<group>"; };
+		A46AE3791B861AD300F2D81F /* PlayersFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayersFlowLayout.swift; sourceTree = "<group>"; };
+		A46AE37B1B861DFD00F2D81F /* Силуэт_600-800px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Силуэт_600-800px.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,9 +84,11 @@
 				A46AE3581B8619E800F2D81F /* AppDelegate.swift */,
 				A46AE35A1B8619E800F2D81F /* ViewController.swift */,
 				A46AE35C1B8619E800F2D81F /* Main.storyboard */,
+				A46AE37B1B861DFD00F2D81F /* Силуэт_600-800px.png */,
 				A46AE35F1B8619E800F2D81F /* Images.xcassets */,
 				A46AE3611B8619E800F2D81F /* LaunchScreen.xib */,
 				A46AE3561B8619E800F2D81F /* Supporting Files */,
+				A46AE3791B861AD300F2D81F /* PlayersFlowLayout.swift */,
 			);
 			path = Layout;
 			sourceTree = "<group>";
@@ -195,6 +201,7 @@
 				A46AE35E1B8619E800F2D81F /* Main.storyboard in Resources */,
 				A46AE3631B8619E800F2D81F /* LaunchScreen.xib in Resources */,
 				A46AE3601B8619E800F2D81F /* Images.xcassets in Resources */,
+				A46AE37C1B861DFD00F2D81F /* Силуэт_600-800px.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,6 +221,7 @@
 			files = (
 				A46AE35B1B8619E800F2D81F /* ViewController.swift in Sources */,
 				A46AE3591B8619E800F2D81F /* AppDelegate.swift in Sources */,
+				A46AE37A1B861AD300F2D81F /* PlayersFlowLayout.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
